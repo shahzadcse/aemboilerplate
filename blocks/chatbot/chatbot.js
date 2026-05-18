@@ -23,8 +23,8 @@ const SPEECH_DELAY_MS = 3000; // Wait 3 seconds of silence before sending
 // ============================================================================
 
 // Repository Configuration
-const ORG = 'meejain';
-const REPO = 'speech-ai-chatbot';
+const ORG = 'shahzadcse';
+const REPO = 'aemboilerplate';
 
 // Dynamically detect which page we're on
 function getHTMLFile() {
@@ -1711,9 +1711,9 @@ async function processMessage(userInput, msgContainer) {
  * ============================================================================
  */
 
-/*
+ 
 // Power Automate Configuration
-const POWER_AUTOMATE_URL = 'YOUR_POWER_AUTOMATE_WEBHOOK_URL_HERE';
+const POWER_AUTOMATE_URL = 'https://main--aemboilerplate--shahzadcse.aem.live/';
 
 async function triggerPowerAutomateFlow(userPrompt, botMessageElement) {
   console.log('🔄 Triggering Power Automate flow...');
@@ -1791,5 +1791,5 @@ async function triggerPowerAutomateFlow(userPrompt, botMessageElement) {
 }
 
 // TO USE POWER AUTOMATE: Replace the processMessage() AI calls with:
-// await triggerPowerAutomateFlow(userInput, botMsg);
-*/
+//  await triggerPowerAutomateFlow(userInput, botMsg);
+ 
